@@ -38,3 +38,5 @@ except Exception as e:
   logging.exception("22222 Caught Exception: %s", e)
 
 print("遗憾的是，大多数编程语言没有针对尾递归做优化，Python解释器也没有做优化，所以，即使把上面的fact(n)函数改成尾递归方式，也会导致栈溢出。")
+
+
