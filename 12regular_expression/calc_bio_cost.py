@@ -27,6 +27,19 @@ def calcPerCost(totalCost, total):
 
 
 
+print("总成本：%s 万元" % (totalAmount))
+print("肿瘤样本总数：%s 个" % (tumorSampleTotal))
+print("样本总数：%s 个 （肿瘤+遗传）" % (sampleTotal))
+print("肿瘤案例总数：%s 例" % (tumorCaseTotal))
+print("案例总数：%s 例 （肿瘤+遗传）" % (caseTotal))
+print("用到的人力：%s 人" % (manpowerCost))
+print("用到的人力成本：%s 万元" % (manpowerCostAmount))
+print("用到的算力：%s 台" % (computingCost))
+print("用到的算力成本：%s 万元" % (computingCostAmount))
+print("用到的存储：%s TB" % (storageCost))
+print("用到的存储成本：%s 万元" % (storageCostAmount))
+print("")
+
 
 print("样本----》")
 
@@ -63,18 +76,6 @@ print("肿瘤一个样本用到存储的成本= %.5f 万元" % (calcPerCost(cost
 
 print("""
 """)
-
-print("总成本：%s 万元" % (totalAmount))
-print("肿瘤样本总数：%s 个" % (tumorSampleTotal))
-print("样本总数：%s 个" % (sampleTotal))
-print("肿瘤案例总数：%s 例" % (tumorCaseTotal))
-print("案例总数：%s 例" % (caseTotal))
-print("用到的人力：%s 人" % (manpowerCost))
-print("用到的人力成本：%s 万元" % (manpowerCostAmount))
-print("用到的算力：%s 台" % (computingCost))
-print("用到的算力成本：%s 万元" % (computingCostAmount))
-print("用到的存储：%s TB" % (storageCost))
-print("用到的存储成本：%s 万元" % (storageCostAmount))
 
 print("案例----------》")
 
